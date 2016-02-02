@@ -1,0 +1,10 @@
+##Suma de Pares de 10 a 5000 omitiendo el 100 y el 1000
+
+h = range(10, 5001)
+for i in range(1000):
+    if h == 100:
+        pass
+    if h == 1000:
+        pass
+b = sum(h)
+print (b)
